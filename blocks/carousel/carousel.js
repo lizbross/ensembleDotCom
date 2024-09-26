@@ -7,7 +7,7 @@ async function fetchCarouselData(block) {
   if (response.ok) {
     const jsonData = await response.json();
 
-    // grab nested array from the response
+    //  grab nested array from the response
     data = jsonData.data;
   } else {
     // eslint-disable-next-line no-console
